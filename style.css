@@ -5,7 +5,7 @@ body{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  /*justify-content: flex-end;*/
 }
 
 .header{
@@ -61,13 +61,13 @@ ul{
 }
 
 #subtext{
-  color: black;
+  margin: 10px 0;
 }
 
 #placeholder{
   color: white;
-  width: 500px;
-  height: 200px;
+  width: 550px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,17 +79,19 @@ ul{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 30px 30px 80px 30px;
 }
 
 #subtitle{
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 30px;
 }
 
 .images{
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 80px;
 }
 
 #images{
@@ -103,8 +105,8 @@ ul{
 #image{
   border: 5px solid lightblue;
   border-radius: 10px;
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
 }
 
 #image-desc{
@@ -117,7 +119,7 @@ ul{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 100px 30px;
   background-color: #E5E7EB;
 }
 
@@ -141,11 +143,12 @@ ul{
   display: flex;
   /*justify-content: center;*/
   margin: 50px;
-  width: 800px;
+  width: 1000px;
   height: 100px;
   justify-content: space-around;
   color: white;
   background-color: #3882F6;
+  border-radius: 5px;
 }
 
 .signup-text-label{
@@ -162,10 +165,6 @@ ul{
 
 #signup-title{
   font-size: x-large;
-}
-
-#signup-text{
-
 }
 
 .footer{
